@@ -35,12 +35,15 @@ replace your chainstate path here in line 12
     { keyEncoding: 'hex', valueEncoding: 'binary' });
 
 modify startNum in line 307
+    
     let startNum = 0
 
 modify limit in line 311
+    
     const limit =5500000;
 
 modify fileNo in line 314
+    
     let fileNo=0;
 
 5. yarn run flow
